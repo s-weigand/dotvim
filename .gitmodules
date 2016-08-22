@@ -1,0 +1,15 @@
+[submodule "jedi-vim"]
+	path = jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "neosnippet.vim"]
+	path = neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "bundle/neocomplcache.vim"]
+	path = bundle/neocomplcache.vim
+	url = https://github.com/Shougo/neocomplcache.vim
+[submodule "bundle/neosnippet.vim"]
+	path = bundle/neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim

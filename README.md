@@ -1,2 +1,2 @@
 # dotvim
-vimcinfig
+my vimconfig

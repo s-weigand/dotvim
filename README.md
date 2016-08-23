@@ -1,12 +1,16 @@
-# dotvim
-my vimconfig Win10 bash
+#my vimconfig Win10 bash
 
-Install Notes:
-cd /usr/share/vim/
-rm vimrc
-git clone http://github.com/username/dotvim.git /usr/share/vim/config
-ln -s /usr/share/vim/config/vimrc /usr/share/vim/vimrc
-cd config
+##Install Notes:
+cd /etc/vim/
+
+git clone https://github.com/s-weigand/dotvim /etc/vim/
+
+ln -s /etc/vim/vimrc /usr/share/vim/vimrc
+
+##my installed packages:
+
 git submodule add https://github.com/davidhalter/jedi-vim
+
 git submodule add https://github.com/Shougo/neocomplcache.vim/tree/master
+
 git submodule add https://github.com/Shougo/neosnippet.vim

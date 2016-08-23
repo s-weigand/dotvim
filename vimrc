@@ -1,3 +1,4 @@
+set nocp
 runtime autoload/pathogen.vim
 execute pathogen#infect()
 syntax on

@@ -1,10 +1,10 @@
-set nocp
-runtime autoload/pathogen.vim
-execute pathogen#infect()
-syntax on
+" Pathogen load
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
 filetype plugin indent on
-"call pathogen#runtime_append_all_bundles()
-"call pathogen#helptags()
+syntax on
 
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 " the call to :runtime you can find below.  If you wish to change any of those

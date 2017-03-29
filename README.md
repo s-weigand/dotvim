@@ -1,6 +1,7 @@
 #my vimconfig Win10 bash
 
 ##Install Notes:
+
 git clone https://github.com/s-weigand/dotvim ~/.vim/
 
 cd ~/.vim
